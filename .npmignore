@@ -1,0 +1,12 @@
+node_modules
+notes
+test-css
+dist
+a.ts
+src
+.gitignore
+biome.json
+tsconfig.json
+pnpm-lock.yaml
+.babelrc
+note.txt

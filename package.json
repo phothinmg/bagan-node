@@ -1,0 +1,35 @@
+{
+  "name": "bagan-node",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "format": "biome check --write src && biome format --write src ",
+    "lint": "biome lint --write src"
+  },
+  "exports": {
+    "./fs": {
+      "types": "./dist/fs/index.d.ts",
+      "import": "./dist/fs/index.js",
+      "require": "./dist/fs/index.cjs"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@types/node": "^20.14.12",
+    "babel-preset-minify": "^0.5.2",
+    "dax-sh": "^0.41.0",
+    "tsup": "^8.2.3",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  },
+  "pnpm": {
+    "allowedDeprecatedVersions": {
+      "glob": "7.2.3",
+      "inflight": "1.0.6"
+    }
+  }
+}

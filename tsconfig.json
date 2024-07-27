@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "./dist/fs"
+  },
+  "include": ["src/fs/index.ts"],
+  "exclude": ["node_modules/*", "dist/*"]
+}
